@@ -65,7 +65,7 @@ public class FileManager {
 			}
 			fileReader.close();
 			bufferReader.close();
-			System.out.println("Contents of File:");
+			System.out.println("Contents of File:\n");
 			System.out.println(stringBuffer.toString());
 
 		} catch (IOException e) {

@@ -35,7 +35,7 @@ public class LogicExecution {
 									 sortInOrder(list, names);
 									 }
 								
-								System.out.println("\nAll files are sorted in Ascending Order:");
+								System.out.println("\nAll files are sorted in Ascending Order:\n");
 								
 								for (String names : list){
 									  System.out.println(names);
@@ -128,8 +128,8 @@ public class LogicExecution {
 								}
 							}
 							if(ifExist){
-								System.out.println("found this file\n"
-										+ searchedFile +"\nwhich action would you like to perform on it??");
+								System.out.println("found this file\n\n'"
+										+ searchedFile +"'\nwhich action would you like to perform on it??");
 								
 								menu.searchMenu();
 									if(sc.hasNextInt()){
